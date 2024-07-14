@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoviesTableViewCell" rowHeight="161" id="KGk-i7-Jjw" customClass="MoviesTableViewCell" customModule="MobileDataManagementAssignment2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="161"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D6Q-uu-mVt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="161"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="TQJ-uC-ko1">
+                                <rect key="frame" x="105" y="10" width="200" height="106"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Movies" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxp-9E-Py4">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Studio" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA1-CN-WyE">
+                                        <rect key="frame" x="0.0" y="25.333333333333336" width="200" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4P2-L7-g4E">
+                                        <rect key="frame" x="0.0" y="50.666666666666664" width="200" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="z73-4t-W4v">
+                                        <rect key="frame" x="0.0" y="76" width="200" height="30"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWs-Sj-HA5">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Delete"/>
+                                                <connections>
+                                                    <action selector="deleteAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wDU-bq-zWj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gXa-jL-EOs">
+                                                <rect key="frame" x="110" y="0.0" width="90" height="30"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Edit"/>
+                                                <connections>
+                                                    <action selector="editAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rSI-aj-Upt"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ins-MO-1Oa">
+                                <rect key="frame" x="15" y="10" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Wms-jY-HBn"/>
+                                    <constraint firstAttribute="height" constant="80" id="wbc-2X-9KH"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TQJ-uC-ko1" firstAttribute="leading" secondItem="ins-MO-1Oa" secondAttribute="trailing" constant="10" id="M8T-Wd-8am"/>
+                            <constraint firstItem="ins-MO-1Oa" firstAttribute="top" secondItem="D6Q-uu-mVt" secondAttribute="top" constant="10" id="RmC-mx-k7a"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ins-MO-1Oa" secondAttribute="bottom" constant="15" id="Xie-TL-g5X"/>
+                            <constraint firstItem="ins-MO-1Oa" firstAttribute="leading" secondItem="D6Q-uu-mVt" secondAttribute="leading" constant="15" id="b0F-h3-18N"/>
+                            <constraint firstItem="TQJ-uC-ko1" firstAttribute="top" secondItem="ins-MO-1Oa" secondAttribute="top" id="g5g-aJ-QL0"/>
+                            <constraint firstAttribute="trailing" secondItem="TQJ-uC-ko1" secondAttribute="trailing" constant="15" id="hUu-DS-2U9"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TQJ-uC-ko1" secondAttribute="bottom" constant="15" id="oQ3-Id-2gV"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D6Q-uu-mVt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2PE-gN-ciK"/>
+                    <constraint firstItem="D6Q-uu-mVt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="DSx-hn-xth"/>
+                    <constraint firstAttribute="trailing" secondItem="D6Q-uu-mVt" secondAttribute="trailing" id="K8c-o7-vB5"/>
+                    <constraint firstAttribute="bottom" secondItem="D6Q-uu-mVt" secondAttribute="bottom" id="P5S-F8-oK8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="delete" destination="PWs-Sj-HA5" id="bS5-cp-fEc"/>
+                <outlet property="edit" destination="gXa-jL-EOs" id="pmK-Xp-1Ry"/>
+                <outlet property="moviesImage" destination="ins-MO-1Oa" id="6P5-lg-XSN"/>
+                <outlet property="rating" destination="4P2-L7-g4E" id="HBt-u4-rS4"/>
+                <outlet property="studio" destination="gA1-CN-WyE" id="wgO-of-U4Q"/>
+                <outlet property="title" destination="Rxp-9E-Py4" id="xN2-z9-naf"/>
+            </connections>
+            <point key="canvasLocation" x="19.847328244274809" y="82.74647887323944"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

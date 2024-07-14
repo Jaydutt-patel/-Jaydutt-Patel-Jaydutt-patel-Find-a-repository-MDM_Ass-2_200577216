@@ -1,0 +1,122 @@
+[
+  {
+    "title": "The Grand Budapest Hotel",
+    "studio": "Fox Searchlight Pictures",
+    "criticsRating": "8.1",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
+  },
+  {
+    "title": "The Big Lebowski",
+    "studio": "Gramercy Pictures",
+    "criticsRating": "8.1",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/5DpmtMBXXNDujIuSlKW3WLKuqEd.jpg"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "studio": "Universal Pictures",
+    "criticsRating": "8.3",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg"
+  },
+  {
+    "title": "Amélie",
+    "studio": "Miramax",
+    "criticsRating": "8.3",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/ktWKniTtXGaErBZYK6Yx4ghJZHH.jpg"
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "studio": "Picturehouse",
+    "criticsRating": "8.2",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/7PurMm0gUOJZ8Uk0oymaZPWm8Lv.jpg"
+  },
+  {
+    "title": "The Truman Show",
+    "studio": "Paramount Pictures",
+    "criticsRating": "8.1",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/vuza0WqY239yBXOadKlGwJsZJFE.jpg"
+  },
+  {
+    "title": "There Will Be Blood",
+    "studio": "Paramount Vantage",
+    "criticsRating": "8.2",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/fa0RDkAlCec0STeMNAhPaF89q6U.jpg"
+  },
+  {
+    "title": "Oldboy",
+    "studio": "Show East",
+    "criticsRating": "8.4",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/jB7ol6ry8dlqMp6kKlKRDkO9hGX.jpg"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "studio": "Focus Features",
+    "criticsRating": "8.3",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg"
+  },
+  {
+    "title": "Snatch",
+    "studio": "Screen Gems",
+    "criticsRating": "8.3",
+    "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/56mOJth6DJ6JhgoE2jtpilVqJO.jpg"
+  },
+  {
+      "title": "No Country for Old Men",
+      "studio": "Paramount Vantage",
+      "criticsRating": "8.1",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/bj1v6YKF8yHqA489VFfnQvOJpnc.jpg"
+    },
+    {
+      "title": "Reservoir Dogs",
+      "studio": "Miramax",
+      "criticsRating": "8.3",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/lsBnfheKZBO3UKU7lVHIeGZLWuF.jpg"
+    },
+    {
+      "title": "Braveheart",
+      "studio": "Paramount Pictures",
+      "criticsRating": "8.3",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/or1gBugydmjToAEq7OZY0owwFk.jpg"
+    },
+    {
+      "title": "A Beautiful Mind",
+      "studio": "Universal Pictures",
+      "criticsRating": "8.2",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/zwzWCmH72OSC9NA0ipoqw5Zjya8.jpg"
+    },
+    {
+      "title": "Amadeus",
+      "studio": "Orion Pictures",
+      "criticsRating": "8.3",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/flnoqdC38mbaulAeptjynOFO7yi.jpg"
+    },
+    {
+      "title": "Django Unchained",
+      "studio": "The Weinstein Company",
+      "criticsRating": "8.4",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
+    },
+    {
+      "title": "Good Will Hunting",
+      "studio": "Miramax",
+      "criticsRating": "8.3",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/bABCBKYBK7A5G1x0FzoeoNfuj2.jpg"
+    },
+    {
+      "title": "The Intouchables",
+      "studio": "Gaumont",
+      "criticsRating": "8.5",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/323BP0itpxTsO0skTbOL3zSWtACz.jpg"
+    },
+    {
+      "title": "The Sixth Sense",
+      "studio": "Hollywood Pictures",
+      "criticsRating": "8.1",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/fIssD3w3SvIhPPmVo4WMgZDVLID.jpg"
+    },
+    {
+      "title": "Shutter Island",
+      "studio": "Paramount Pictures",
+      "criticsRating": "8.2",
+      "image": "https://media.themoviedb.org/t/p/w440_and_h660_face/kve20tXwUZpu4GUX8l6X7Z4jmL6.jpg"
+    }
+  ]
